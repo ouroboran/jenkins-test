@@ -12,7 +12,7 @@ pipeline {
                 sh '''
                 users
                 uname -a
-                ./hello_test.sh
+                sh ./hello_test.sh
                 '''
             }
         }
