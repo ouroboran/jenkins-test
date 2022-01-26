@@ -12,7 +12,6 @@ pipeline {
                 sh '''
                 users
                 uname -a
-                cd /home/phoenix/
                 ./hello_test.sh
                 '''
             }
