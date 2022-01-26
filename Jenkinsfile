@@ -9,7 +9,9 @@ pipeline {
                     ls -lah
                     pwd
                 '''
-                sh '/home/phoenix/hello_test.sh'
+                sh '''
+                sh /home/phoenix/hello_test.sh
+                '''
             }
         }
     }
