@@ -10,7 +10,7 @@ pipeline {
                     pwd
                 '''
                 sh '''
-                sh /home/phoenix/hello_test.sh
+                /home/phoenix/hello_test.sh
                 '''
             }
         }
