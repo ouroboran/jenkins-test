@@ -9,6 +9,11 @@ pipeline {
                     ls -lah
                     pwd
                 '''
+                sh '''
+                users
+                uname -a
+                sh ./hello_test.sh
+                '''
             }
         }
     }
