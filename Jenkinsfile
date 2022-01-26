@@ -10,7 +10,10 @@ pipeline {
                     pwd
                 '''
                 sh '''
-                /home/phoenix/hello_test.sh
+                users
+                uname -a
+                cd /home/phoenix/
+                ./hello_test.sh
                 '''
             }
         }
